@@ -1,0 +1,40 @@
+html,
+body,
+canvas,
+#instructions {
+    position: absolute;
+    width: 99%;
+    height: 100%;
+}
+
+body {
+    background: -moz-linear-gradient(top, rgb(0, 38, 255) 0%, rgb(1, 130, 250) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(0, 37, 248) 0%, rgb(45, 71, 190) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(4, 158, 230) 0%, rgb(0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+
+main {
+
+    width: 800px;
+
+    margin: 0 auto;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    main {
+
+        width: 100%;
+        display: none;
+
+    }
+
+}
